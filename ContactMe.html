@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Phone Number: 33334444</p>
+    <p>Email: aaaa@gmail.com</p>
+    <hr>
+    <!--A form is created where the cuestomer can send his message to the business specified email. To do so, the attribute action needs to be set to mailto: <mailid>. To ensure the simple text of the message of the user is displayed (without encoded language), it is required to set the attribute enctype="text/plain"-->
+    <form action="mailto:wadhwa.manisha149@gmail.com" method="POST" enctype="text/plain">
+        <label>Your Name: </label>
+        <input type="text" name="Your Name"><br>
+        <label>Your Email: </label>
+        <input type="email" name="Your Email"><br>
+        <label>Your Message:</label><br>
+        <textarea name="Your Message" rows="10" cols="30"></textarea><br>
+        <input type="submit">
+    </form>
+  <!--  <form>
+        <label>Your Name</label>
+        <input type="text">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="file">
+        <br>
+        <input type="date">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="range">
+    </form> -->
+</body>
+</html>
